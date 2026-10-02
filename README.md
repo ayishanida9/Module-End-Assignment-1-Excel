@@ -72,7 +72,7 @@ Below 18.5 Underweight
    
 Ans:=IF(B2<18.5,"Underweight",IF(B2<25,"Normal Weight",IF(B2<30,"Overweight","Obesity")))
 
-6) Create a new column named “Diabetes Status” and fill it as per the information given
+5) Create a new column named “Diabetes Status” and fill it as per the information given
 below:
 HbA1C Diabetes Status
 Below 5.7 Normal
