@@ -106,3 +106,57 @@ The age of each customer was calculated using the Date of Birth and the dataset 
 Or:
 
 Ctrl + 1 → Currency → Symbol: $ → OK
+
+##Data Exploration, Analysis & Visualization: (12 marks)
+
+1)Create a new sheet named “Healthcare", combine all three tables into one, using
+Customer ID as the common column, utilizing VLOOKUP .
+Retain the following necessary columns: Customer ID, First Name, BMI, HBA1C, Heart
+Issues, Any Transplants, Cancer history, NumberOfMajorSurgeries, smoker, Weight
+Status, Diabetes Status, Date of Birth, charges, Hospital tier, City tier, State ID, Age.
+Create pivot tables if required to do the following analysis, then visualize through charts:
+
+Ans:The three tables were combined into a new worksheet named Healthcare using Customer ID as the common field and VLOOKUP to retrieve the required columns. PivotTables were created to summarize the data and analyze patient health conditions, healthcare charges and hospital tiers.
+
+##Analysis using Pie/Donut Chart:
+
+What is the distribution of cancer history among smokers and non-smokers?
+
+Ans:Cancer History Analysis: Analyzed the distribution of cancer history among smokers and non-smokers using a PivotTable and chart to compare the number of patients in each category.
+
+How does the total number of major surgeries and average HbA1C differ between
+patients with and without a history of transplants?
+
+Ans:Transplant Analysis: Compared the total number of major surgeries and average HbA1C levels between patients with and without a history of transplants using PivotTables and charts.
+
+##Analysis using Column/Bar Chart:
+
+How do healthcare charges vary based on different weight statuses and diabetes
+statuses?
+
+Ans:Healthcare Charges Analysis: Examined average healthcare charges across different weight statuses and diabetes statuses using a clustered column chart.
+
+Can you compare the average charges for each hospital tier within different states?
+
+Ans:Hospital Tier Analysis: Compared average healthcare charges for different hospital tiers across states using a PivotTable and column chart.
+
+##Analysis using Line/Scatter Plot:
+
+Is there any correlation between age and both BMI and HbA1C in the dataset?
+
+Ans:Age and Health Indicators: Used scatter plots to explore the relationships between age and BMI, and between age and HbA1C, with trendlines to visualize the correlations.
+
+Explore the relationship between age and healthcare charges.
+
+Ans:Age and Healthcare Charges: Created a scatter plot to examine the relationship between patients' age and healthcare charges.
+
+##Dashboard Creation:
+
+Build an interactive dashboard that consolidates all key insights using the above
+visualizations. Ensure visual clarity and ease of interpretation for all chart types.
+Add slicers for the fields “Weight Status” and “Diabetes Status” to enable filtering across
+all visualizations, supporting comparison of health outcomes and charges based on body weight and diabetes condition
+
+Ans:Interactive Dashboard: Developed an interactive dashboard combining the key charts and visualizations. Added slicers for Weight Status and Diabetes Status to filter the connected PivotTables and compare patient health outcomes and healthcare charges across categories.
+
+
